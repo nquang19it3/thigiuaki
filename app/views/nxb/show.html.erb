@@ -1,0 +1,14 @@
+<h1>NXB list!</h1>
+
+<ul>
+
+<% @nxbs.each do |nxb|%>
+
+<li><b>Name: </b><%= nxb.nxb_name %></li>
+<li><b>Address: </b><%= nxb.address %></li>
+<li><b>Email: </b><%= nxb.email %></li>
+<li><b>Deputy: </b><%= nxb.deputy %></li>
+
+<% end %>
+
+</ul>

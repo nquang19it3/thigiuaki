@@ -1,0 +1,7 @@
+<h1>book list!</h1>
+<ul>
+<% @books.each do |book|%>
+<li><b>Name: </b> <%= book.book_name %></li>
+<li><b>Publish Year: </b> <%= book.publish_year %></li>
+<% end %>
+</ul>

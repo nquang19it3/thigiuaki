@@ -1,0 +1,13 @@
+<h1>category author!</h1>
+
+<ul>
+
+<% @authors.each do |author|%>
+
+<li><b>Name: </b><%= author.author_name %></li>
+<li><b>Website: </b><%= author.website %></li>
+<li><b>Node: </b><%= author.note %></li>
+
+<% end %>
+
+</ul>
